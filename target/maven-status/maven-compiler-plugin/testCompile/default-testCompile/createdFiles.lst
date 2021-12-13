@@ -1,0 +1,6 @@
+api_test\PostsTests.class
+api_test\CommentsTests.class
+api_test\BaseTest.class
+api_test\Users.class
+api_test\Miscelaneo.class
+api_test\ArticlesTests.class

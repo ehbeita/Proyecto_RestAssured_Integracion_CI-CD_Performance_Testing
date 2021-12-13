@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HerokuExecution" duration-ms="32945" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:18:08Z">
+    <groups>
+    </groups>
+    <test name="api_test.Miscelaneo" duration-ms="6783" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:42Z">
+      <class name="api_test.Miscelaneo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:api_test.Miscelaneo@3567135c]" name="setup" is-config="true" duration-ms="1154" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test_404()[pri:0, instance:api_test.Miscelaneo@3567135c]" name="Test_404" duration-ms="4084" started-at="2021-12-13T05:17:36Z" finished-at="2021-12-13T05:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_404 -->
+        <test-method status="PASS" signature="Test_HOME()[pri:0, instance:api_test.Miscelaneo@3567135c]" name="Test_HOME" duration-ms="810" started-at="2021-12-13T05:17:41Z" finished-at="2021-12-13T05:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_HOME -->
+        <test-method status="PASS" signature="Test_PING()[pri:0, instance:api_test.Miscelaneo@3567135c]" name="Test_PING" duration-ms="683" started-at="2021-12-13T05:17:41Z" finished-at="2021-12-13T05:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_PING -->
+      </class> <!-- api_test.Miscelaneo -->
+    </test> <!-- api_test.Miscelaneo -->
+    <test name="api_test.ArticlesTests" duration-ms="8948" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:44Z">
+      <class name="api_test.ArticlesTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:api_test.ArticlesTests@59e84876]" name="setup" is-config="true" duration-ms="1154" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test_Create_Article()[pri:0, instance:api_test.ArticlesTests@59e84876]" name="Test_Create_Article" duration-ms="5971" started-at="2021-12-13T05:17:36Z" finished-at="2021-12-13T05:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Article -->
+        <test-method status="PASS" signature="Test_Create_Article_RequestSpecification()[pri:0, instance:api_test.ArticlesTests@59e84876]" name="Test_Create_Article_RequestSpecification" duration-ms="1796" started-at="2021-12-13T05:17:42Z" finished-at="2021-12-13T05:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Article_RequestSpecification -->
+      </class> <!-- api_test.ArticlesTests -->
+    </test> <!-- api_test.ArticlesTests -->
+    <test name="api_test.Users" duration-ms="9761" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:45Z">
+      <class name="api_test.Users">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:api_test.Users@3dd3bcd]" name="setup" is-config="true" duration-ms="1154" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test_User_Login()[pri:0, instance:api_test.Users@3dd3bcd]" name="Test_User_Login" duration-ms="5265" started-at="2021-12-13T05:17:36Z" finished-at="2021-12-13T05:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_User_Login -->
+        <test-method status="PASS" signature="Test_User_Logout()[pri:0, instance:api_test.Users@3dd3bcd]" name="Test_User_Logout" duration-ms="1491" started-at="2021-12-13T05:17:42Z" finished-at="2021-12-13T05:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_User_Logout -->
+        <test-method status="PASS" signature="Test_User_Registration()[pri:0, instance:api_test.Users@3dd3bcd]" name="Test_User_Registration" duration-ms="1185" started-at="2021-12-13T05:17:43Z" finished-at="2021-12-13T05:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_User_Registration -->
+        <test-method status="PASS" signature="Test_User_Registration_Existing_User()[pri:0, instance:api_test.Users@3dd3bcd]" name="Test_User_Registration_Existing_User" duration-ms="638" started-at="2021-12-13T05:17:44Z" finished-at="2021-12-13T05:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_User_Registration_Existing_User -->
+      </class> <!-- api_test.Users -->
+    </test> <!-- api_test.Users -->
+    <test name="api_test.PostsTests" duration-ms="23712" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:59Z">
+      <class name="api_test.PostsTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:api_test.PostsTests@b97c004]" name="setup" is-config="true" duration-ms="1154" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test_Post_All()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_All" duration-ms="6243" started-at="2021-12-13T05:17:36Z" finished-at="2021-12-13T05:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_All -->
+        <test-method status="PASS" signature="Test_Post_All_Invalid_Token()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_All_Invalid_Token" duration-ms="837" started-at="2021-12-13T05:17:43Z" finished-at="2021-12-13T05:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_All_Invalid_Token -->
+        <test-method status="PASS" signature="Test_Post_Create()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_Create" duration-ms="1526" started-at="2021-12-13T05:17:44Z" finished-at="2021-12-13T05:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_Create -->
+        <test-method status="PASS" signature="Test_Post_Create_Invalid_Form()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_Create_Invalid_Form" duration-ms="1331" started-at="2021-12-13T05:17:45Z" finished-at="2021-12-13T05:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_Create_Invalid_Form -->
+        <test-method status="PASS" signature="Test_Post_Delete()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_Delete" duration-ms="2795" started-at="2021-12-13T05:17:46Z" finished-at="2021-12-13T05:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_Delete -->
+        <test-method status="PASS" signature="Test_Post_Delete_Not_Found()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_Delete_Not_Found" duration-ms="1348" started-at="2021-12-13T05:17:49Z" finished-at="2021-12-13T05:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_Delete_Not_Found -->
+        <test-method status="PASS" signature="Test_Post_One()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_One" duration-ms="2750" started-at="2021-12-13T05:17:51Z" finished-at="2021-12-13T05:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_One -->
+        <test-method status="PASS" signature="Test_Post_One_Not_Found()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_One_Not_Found" duration-ms="1520" started-at="2021-12-13T05:17:53Z" finished-at="2021-12-13T05:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_One_Not_Found -->
+        <test-method status="PASS" signature="Test_Post_Update()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_Update" duration-ms="2730" started-at="2021-12-13T05:17:55Z" finished-at="2021-12-13T05:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_Update -->
+        <test-method status="PASS" signature="Test_Post_Update_Not_Found()[pri:0, instance:api_test.PostsTests@b97c004]" name="Test_Post_Update_Not_Found" duration-ms="1429" started-at="2021-12-13T05:17:58Z" finished-at="2021-12-13T05:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Post_Update_Not_Found -->
+      </class> <!-- api_test.PostsTests -->
+    </test> <!-- api_test.PostsTests -->
+    <test name="api_test.CommentsTests" duration-ms="32944" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:18:08Z">
+      <class name="api_test.CommentsTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:api_test.CommentsTests@458ad742]" name="setup" is-config="true" duration-ms="1154" started-at="2021-12-13T05:17:35Z" finished-at="2021-12-13T05:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test_Comment_All()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_All" duration-ms="7889" started-at="2021-12-13T05:17:36Z" finished-at="2021-12-13T05:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_All -->
+        <test-method status="PASS" signature="Test_Comment_All_Invalid_Auth()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_All_Invalid_Auth" duration-ms="2864" started-at="2021-12-13T05:17:44Z" finished-at="2021-12-13T05:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_All_Invalid_Auth -->
+        <test-method status="PASS" signature="Test_Comment_Create()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_Create" duration-ms="2109" started-at="2021-12-13T05:17:47Z" finished-at="2021-12-13T05:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_Create -->
+        <test-method status="PASS" signature="Test_Comment_Create_FK_Violation()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_Create_FK_Violation" duration-ms="736" started-at="2021-12-13T05:17:49Z" finished-at="2021-12-13T05:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_Create_FK_Violation -->
+        <test-method status="PASS" signature="Test_Comment_Delete()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_Delete" duration-ms="2751" started-at="2021-12-13T05:17:50Z" finished-at="2021-12-13T05:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_Delete -->
+        <test-method status="PASS" signature="Test_Comment_Delete_Not_Found()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_Delete_Not_Found" duration-ms="2058" started-at="2021-12-13T05:17:53Z" finished-at="2021-12-13T05:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_Delete_Not_Found -->
+        <test-method status="PASS" signature="Test_Comment_One()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_One" duration-ms="3257" started-at="2021-12-13T05:17:55Z" finished-at="2021-12-13T05:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_One -->
+        <test-method status="PASS" signature="Test_Comment_One_Not_Found()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_One_Not_Found" duration-ms="2743" started-at="2021-12-13T05:17:58Z" finished-at="2021-12-13T05:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_One_Not_Found -->
+        <test-method status="PASS" signature="Test_Comment_Update()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_Update" duration-ms="3948" started-at="2021-12-13T05:18:01Z" finished-at="2021-12-13T05:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_Update -->
+        <test-method status="PASS" signature="Test_Comment_Update_Not_Found()[pri:0, instance:api_test.CommentsTests@458ad742]" name="Test_Comment_Update_Not_Found" duration-ms="3391" started-at="2021-12-13T05:18:05Z" finished-at="2021-12-13T05:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Comment_Update_Not_Found -->
+      </class> <!-- api_test.CommentsTests -->
+    </test> <!-- api_test.CommentsTests -->
+  </suite> <!-- HerokuExecution -->
+</testng-results>

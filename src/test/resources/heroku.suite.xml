@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HerokuExecution" parallel="tests">
+
+    <parameter name="baseUrl" value="https://api-coffee-testing.herokuapp.com"></parameter>
+
+    <test name="api_test.Miscelaneo">
+        <classes>
+            <class name="api_test.Miscelaneo"></class>
+        </classes>
+    </test>
+    <test name="api_test.Users">
+        <classes>
+            <class name="api_test.Users"></class>
+        </classes>
+    </test>
+    <test name="api_test.ArticlesTests">
+        <classes>
+            <class name="api_test.ArticlesTests"></class>
+        </classes>
+    </test>
+    <test name="api_test.PostsTests">
+        <classes>
+            <class name="api_test.PostsTests"></class>
+        </classes>
+    </test>
+    <test name="api_test.CommentsTests">
+        <classes>
+            <class name="api_test.CommentsTests"></class>
+        </classes>
+    </test>
+</suite>
